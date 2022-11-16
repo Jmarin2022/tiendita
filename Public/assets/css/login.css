@@ -1,0 +1,18 @@
+body {
+    
+    background-image: radial-gradient(#fbffff 0, #ecfffd 7.14%, #dafffa 14.29%, #c6fff7 21.43%, #aefff5 28.57%, #92fff3 35.71%, #70fcf2 42.86%, #3cf2f2 50%, #00e7f3 57.14%, #00ddf6 64.29%, #00d4fa 71.43%, #00cbff 78.57%, #00c2ff 85.71%, #00baff 92.86%, #00b3ff 100%);
+    /* circle at 50% 22.97% */
+}
+
+#card1{
+    border-radius: 22px 22px 22px 22px;
+}
+#img1{
+    border-radius: 22px 22px 22px 22px;   
+}
+#texto{
+    font-family: Times New Roman;
+}
+#boton{
+    text-align:right;
+}

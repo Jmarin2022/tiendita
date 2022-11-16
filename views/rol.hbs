@@ -1,0 +1,29 @@
+ {{> header}}
+  <img src="views\img\descarga.png" class="card-img-top">
+    <div class="card" style="width: 19rem; margin-top: 5%; margin-left: 40%;">
+        
+      
+        <div class="card-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Rol</label>
+                  <input type="email" class="form-control" id="rol" aria-describedby="emailHelp">                  <div id="emailHelp" class="form-text">Nada de barbielalinda o cosas así.</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Permisos</label>
+                  <input type="email" class="form-control" id="permiso_rol" aria-describedby="emailHelp">                  <div id="emailHelp" class="form-text">Nada de barbielalinda o cosas así.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"> Estado</label>
+                  <input type="password" class="form-control" id="estado_rol">
+                  <div id="emailHelp" class="form-text">Que no sea el nombre de tu perro por favor.</div>
+                </div>
+            <button class="btn btn-primary" type="button" id="botton_roles">Enviar formulario</button>
+              </form>
+        <script src="/assets/js/validacion_roles.js"></script>
+
+              
+        </div>
+      </div>
+{{> footer}}
