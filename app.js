@@ -92,7 +92,7 @@ app.get('*', (req, res)=>{
 
 //Verificar si el puerto está escuchando
 app.get('/', (req, res) => {
-    res.render('Ejercicio1',{
+    res.render('dashboard',{
     })
 
 }); 
